@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Relojería Latam DesOp</string>
+
+ //Botones
+    <string name="texto_boton">Compartir nombre tienda</string>
+    <string name="direccion_sucursal_label">Direccion sucursal</string>
+    <string name="foto_se_sucursal">Foto se sucursal</string>
+
+</resources>

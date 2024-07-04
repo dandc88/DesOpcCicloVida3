@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/sucursalImageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:contentDescription="@string/foto_se_sucursal"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/nombreSucursalTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/direccionSucursalTextView"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@color/cream"
+            android:clickable="true"
+            android:focusable="true"
+
+            android:contentDescription="@string/direccion_sucursal_label"/>
+
+        <TextView
+            android:id="@+id/horarioSucursalTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="10dp" />
+
+        <TextView
+            android:id="@+id/historiaSucursalTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="10dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_boton" />
+    </LinearLayout>
+</ScrollView>
